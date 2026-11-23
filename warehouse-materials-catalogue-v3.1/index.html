@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A catalogue for identifying stored warehouse materials. Prototype.">
+  <title>Warehouse Materials Catalogue</title>
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to catalogue</a>
+
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main">
+      <a href="#" class="navbar__brand">
+        <!-- Simple warehouse icon drawn with SVG (no image file needed) -->
+        <svg class="navbar__logo" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M3 10.5 12 4l9 6.5V20H3z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+          <path d="M8 20v-6h8v6" fill="none" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        <span>Warehouse Materials Catalogue</span>
+      </a>
+      <span class="navbar__tag">Prototype</span>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <section class="hero">
+      <div class="hero__inner">
+        <p class="hero__eyebrow">Storage &amp; logistics</p>
+        <h1>Warehouse Materials Catalogue</h1>
+        <p class="hero__text">
+          Browse and identify stored materials by name, catalogue ID,
+          part number, or category. Materials are listed for
+          identification only.
+        </p>
+
+        <div class="search">
+          <label for="search-input" class="visually-hidden">Search materials</label>
+          <svg class="search__icon" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/>
+            <path d="m20 20-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <input
+            type="search"
+            id="search-input"
+            placeholder="Search by name, ID, part number, or description"
+            autocomplete="off"
+          >
+        </div>
+
+        <!-- Numbers are filled in by JavaScript -->
+        <dl class="hero__stats">
+          <div><dt>Materials</dt><dd id="stat-materials">0</dd></div>
+          <div><dt>Categories</dt><dd id="stat-categories">0</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="catalogue" aria-label="Materials">
+      <!-- Category buttons are created by JavaScript from the data -->
+      <div class="filters" id="category-filters" role="group" aria-label="Filter by category"></div>
+
+      <div class="catalogue__status">
+        <p class="result-count" id="result-count" aria-live="polite">Loading materials...</p>
+        <button type="button" class="button button--secondary" id="reset-filters" hidden>Reset filters</button>
+      </div>
+
+      <div class="empty-state" id="empty-state" hidden>
+        <h2>No materials found</h2>
+        <p>Try a different search term or choose another category.</p>
+      </div>
+
+      <!-- Material cards are created by JavaScript -->
+      <div class="material-grid" id="material-grid"></div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Prototype catalogue. Materials are listed for identification only, and details are being confirmed.</p>
+  </footer>
+
+  <!-- Details pop-up: filled in by JavaScript when "View details" is clicked -->
+  <dialog class="details" id="details-dialog" aria-labelledby="details-title">
+    <div id="details-content"></div>
+  </dialog>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

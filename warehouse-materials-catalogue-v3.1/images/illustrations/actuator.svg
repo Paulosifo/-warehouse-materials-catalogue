@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Generic illustration of a valve with a pneumatic actuator">
+  <rect width="400" height="300" fill="#e9eef4"/>
+  <ellipse cx="200" cy="262" rx="130" ry="10" fill="#cfd8e3"/>
+  <rect x="70" y="185" width="260" height="46" fill="#8fa0b5" stroke="#0f1b2d" stroke-width="3"/>
+  <rect x="60" y="175" width="20" height="66" rx="3" fill="#5d6e84" stroke="#0f1b2d" stroke-width="3"/>
+  <rect x="320" y="175" width="20" height="66" rx="3" fill="#5d6e84" stroke="#0f1b2d" stroke-width="3"/>
+  <path d="M160 185 L160 150 L240 150 L240 185 Z" fill="#5d6e84" stroke="#0f1b2d" stroke-width="3"/>
+  <rect x="192" y="110" width="16" height="42" fill="#c9d3df" stroke="#0f1b2d" stroke-width="3"/>
+  <path d="M120 110 A80 70 0 0 1 280 110 Z" fill="#1f5fbf" stroke="#0f1b2d" stroke-width="3"/>
+  <rect x="112" y="108" width="176" height="14" rx="3" fill="#5d6e84" stroke="#0f1b2d" stroke-width="3"/>
+</svg>

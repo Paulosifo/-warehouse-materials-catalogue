@@ -1,0 +1,526 @@
+[
+  {
+    "id": "MAT-0001",
+    "name": "Gate Valve",
+    "partNumber": null,
+    "category": "Valves",
+    "description": "Gate valve. Further details to be confirmed.",
+    "specifications": [],
+    "images": [
+      {
+        "src": "images/materials/mat-0001-1.jpg",
+        "alt": "Flanged gate valve with a blue handwheel and bolted bonnet"
+      }
+    ]
+  },
+  {
+    "id": "MAT-0002",
+    "name": "Ball Valve",
+    "partNumber": null,
+    "category": "Valves",
+    "description": "Ball valve. Further details to be confirmed.",
+    "specifications": [],
+    "images": [
+      {
+        "src": "images/materials/mat-0002-1.jpg",
+        "alt": "Two grey flanged ball valves side by side"
+      }
+    ]
+  },
+  {
+    "id": "MAT-0003",
+    "name": "Ball Valves, Mixed Sizes",
+    "partNumber": null,
+    "category": "Valves",
+    "description": "Ball valves listed in several sizes. Further details to be confirmed.",
+    "specifications": [
+      {
+        "label": "Sizes as listed",
+        "value": "3 inch 150; 1 inch 150LB; 2 inch 150LB"
+      }
+    ],
+    "images": [
+      {
+        "src": "images/materials/mat-0003-1.jpg",
+        "alt": "Two small ball valves with lever handles and weld ends"
+      }
+    ]
+  },
+  {
+    "id": "MAT-0004",
+    "name": "Strainer Basket, 4 inch",
+    "partNumber": null,
+    "category": "Piping & Fittings",
+    "description": "Strainer basket. Further details to be confirmed.",
+    "specifications": [
+      {
+        "label": "Size",
+        "value": "4 inch"
+      }
+    ],
+    "images": [
+      {
+        "src": "images/materials/mat-0004-1.jpg",
+        "alt": "Orange flanged strainer with a bolted side cover on a pallet"
+      }
+    ]
+  },
+  {
+    "id": "MAT-0005",
+    "name": "Pressure Relief Valve",
+    "partNumber": null,
+    "category": "Valves",
+    "description": "Pressure relief valve. Further details to be confirmed.",
+    "specifications": [],
+    "images": [
+      {
+        "src": "images/illustrations/valve.svg",
+        "alt": "Generic illustration of a valve"
+      }
+    ]
+  },
+  {
+    "id": "MAT-0006",
+    "name": "Flanged Valve, RTJ Full Body N Connection",
+    "partNumber": null,
+    "category": "Valves",
+    "description": "Flanged valve. Further details to be confirmed.",
+    "specifications": [
+      {
+        "label": "Connection as listed",
+        "value": "RTJ, full body, N connection"
+      }
+    ],
+    "images": [
+      {
+        "src": "images/illustrations/valve.svg",
+        "alt": "Generic illustration of a valve"
+      }
+    ]
+  },
+  {
+    "id": "MAT-0007",
+    "name": "Ball Valve, 3 inch 600LB",
+    "partNumber": null,
+    "category": "Valves",
+    "description": "Ball valve, 3 inch, 600LB class.",
+    "specifications": [
+      {
+        "label": "Size",
+        "value": "3 inch"
+      },
+      {
+        "label": "Class",
+        "value": "600LB"
+      }
+    ],
+    "images": [
+      {
+        "src": "images/illustrations/ball-valve.svg",
+        "alt": "Generic illustration of a flanged ball valve"
+      }
+    ]
+  },
+  {
+    "id": "MAT-0008",
+    "name": "T Cushion, 6 inch BWCS",
+    "partNumber": null,
+    "category": "Piping & Fittings",
+    "description": "Listed as T cushion 6 inch BWCS. Further details to be confirmed.",
+    "specifications": [
+      {
+        "label": "Size",
+        "value": "6 inch"
+      },
+      {
+        "label": "Code as listed",
+        "value": "BWCS"
+      }
+    ],
+    "images": [
+      {
+        "src": "images/materials/mat-0008-1.jpg",
+        "alt": "Black butt-weld steel tees stacked on a rack"
+      }
+    ]
+  },
+  {
+    "id": "MAT-0009",
+    "name": "Pneumatic Actuator and Bonnet, 18 inch Diaphragm",
+    "partNumber": null,
+    "category": "Actuators",
+    "description": "Pneumatic actuator with bonnet. Further details to be confirmed.",
+    "specifications": [
+      {
+        "label": "Size",
+        "value": "18 inch"
+      },
+      {
+        "label": "Type as listed",
+        "value": "AUD diaphragm"
+      }
+    ],
+    "images": [
+      {
+        "src": "images/illustrations/actuator.svg",
+        "alt": "Generic illustration of a valve with a pneumatic actuator"
+      }
+    ]
+  },
+  {
+    "id": "MAT-0010",
+    "name": "Flange, 4 inch 600LB",
+    "partNumber": null,
+    "category": "Piping & Fittings",
+    "description": "Flange, 4 inch, 600LB class.",
+    "specifications": [
+      {
+        "label": "Size",
+        "value": "4 inch"
+      },
+      {
+        "label": "Class",
+        "value": "600LB"
+      }
+    ],
+    "images": [
+      {
+        "src": "images/illustrations/flange.svg",
+        "alt": "Generic illustration of a flange"
+      }
+    ]
+  },
+  {
+    "id": "MAT-0011",
+    "name": "Ball Valve, 12 inch 600LB",
+    "partNumber": null,
+    "category": "Valves",
+    "description": "Ball valve, 12 inch, 600LB class.",
+    "specifications": [
+      {
+        "label": "Size",
+        "value": "12 inch"
+      },
+      {
+        "label": "Class",
+        "value": "600LB"
+      }
+    ],
+    "images": [
+      {
+        "src": "images/materials/mat-0011-1.jpg",
+        "alt": "Large grey flanged ball valve with a gear operator, in a wooden crate, with a blue cover on the flange"
+      }
+    ]
+  },
+  {
+    "id": "MAT-0012",
+    "name": "Flanged Plug Valve",
+    "partNumber": null,
+    "category": "Valves",
+    "description": "Flanged plug valve. Further details to be confirmed.",
+    "specifications": [],
+    "images": [
+      {
+        "src": "images/materials/mat-0012-1.jpg",
+        "alt": "Two green flanged valves with three-arm handles on a pallet"
+      }
+    ]
+  },
+  {
+    "id": "MAT-0013",
+    "name": "Ball Valve, 3 inch 150LB",
+    "partNumber": null,
+    "category": "Valves",
+    "description": "Ball valve, 3 inch, 150LB class.",
+    "specifications": [
+      {
+        "label": "Size",
+        "value": "3 inch"
+      },
+      {
+        "label": "Class",
+        "value": "150LB"
+      }
+    ],
+    "images": [
+      {
+        "src": "images/illustrations/ball-valve.svg",
+        "alt": "Generic illustration of a flanged ball valve"
+      }
+    ]
+  },
+  {
+    "id": "MAT-0014",
+    "name": "Elbow Fitting, 8 inch 600LB",
+    "partNumber": null,
+    "category": "Piping & Fittings",
+    "description": "Elbow fitting, 8 inch, 600LB class.",
+    "specifications": [
+      {
+        "label": "Size",
+        "value": "8 inch"
+      },
+      {
+        "label": "Class",
+        "value": "600LB"
+      }
+    ],
+    "images": [
+      {
+        "src": "images/illustrations/elbow.svg",
+        "alt": "Generic illustration of a pipe elbow"
+      }
+    ]
+  },
+  {
+    "id": "MAT-0015",
+    "name": "Ball Valve, 1 inch 150LB",
+    "partNumber": null,
+    "category": "Valves",
+    "description": "Ball valve, 1 inch, 150LB class.",
+    "specifications": [
+      {
+        "label": "Size",
+        "value": "1 inch"
+      },
+      {
+        "label": "Class",
+        "value": "150LB"
+      }
+    ],
+    "images": [
+      {
+        "src": "images/illustrations/ball-valve.svg",
+        "alt": "Generic illustration of a flanged ball valve"
+      }
+    ]
+  },
+  {
+    "id": "MAT-0016",
+    "name": "Pneumatic Diaphragm Valve, 18 inch",
+    "partNumber": null,
+    "category": "Valves",
+    "description": "Pneumatic diaphragm valve, 18 inch.",
+    "specifications": [
+      {
+        "label": "Size",
+        "value": "18 inch"
+      },
+      {
+        "label": "Operation",
+        "value": "Pneumatic diaphragm"
+      }
+    ],
+    "images": [
+      {
+        "src": "images/illustrations/actuator.svg",
+        "alt": "Generic illustration of a valve with a pneumatic actuator"
+      }
+    ]
+  },
+  {
+    "id": "MAT-0017",
+    "name": "Plug Valve, 4 inch 600LB",
+    "partNumber": null,
+    "category": "Valves",
+    "description": "Plug valve, 4 inch, 600LB class.",
+    "specifications": [
+      {
+        "label": "Size",
+        "value": "4 inch"
+      },
+      {
+        "label": "Class",
+        "value": "600LB"
+      }
+    ],
+    "images": [
+      {
+        "src": "images/illustrations/valve.svg",
+        "alt": "Generic illustration of a valve"
+      }
+    ]
+  },
+  {
+    "id": "MAT-0018",
+    "name": "Globe Valve, 2 inch GL6R",
+    "partNumber": null,
+    "category": "Valves",
+    "description": "Globe valve, 2 inch.",
+    "specifications": [
+      {
+        "label": "Size",
+        "value": "2 inch"
+      },
+      {
+        "label": "Code as listed",
+        "value": "GL6R"
+      }
+    ],
+    "images": [
+      {
+        "src": "images/illustrations/valve.svg",
+        "alt": "Generic illustration of a valve"
+      }
+    ]
+  },
+  {
+    "id": "MAT-0019",
+    "name": "Cathodic Protection",
+    "partNumber": null,
+    "category": "Pipeline Accessories",
+    "description": "Cathodic protection item. Further details to be confirmed.",
+    "specifications": [],
+    "images": []
+  },
+  {
+    "id": "MAT-0020",
+    "name": "Check Valve",
+    "partNumber": null,
+    "category": "Valves",
+    "description": "Check valve. Further details to be confirmed.",
+    "specifications": [],
+    "images": [
+      {
+        "src": "images/illustrations/valve.svg",
+        "alt": "Generic illustration of a valve"
+      }
+    ]
+  },
+  {
+    "id": "MAT-0021",
+    "name": "3D/5D FBE-Coated Steel Pipe Bends",
+    "partNumber": null,
+    "category": "Piping & Fittings",
+    "description": "Steel pipe bends with FBE coating.",
+    "specifications": [
+      {
+        "label": "Bend radius",
+        "value": "3D / 5D"
+      },
+      {
+        "label": "Coating",
+        "value": "FBE"
+      },
+      {
+        "label": "Material",
+        "value": "Steel"
+      }
+    ],
+    "images": [
+      {
+        "src": "images/illustrations/elbow.svg",
+        "alt": "Generic illustration of a pipe elbow"
+      }
+    ]
+  },
+  {
+    "id": "MAT-0022",
+    "name": "Plidco Clamps",
+    "partNumber": null,
+    "category": "Pipeline Accessories",
+    "description": "Pipe repair clamps. Further details to be confirmed.",
+    "specifications": [
+      {
+        "label": "Brand",
+        "value": "Plidco"
+      }
+    ],
+    "images": [
+      {
+        "src": "images/materials/mat-0022-1.jpg",
+        "alt": "Two red-brown split repair clamps held with studs, on a pallet"
+      }
+    ]
+  },
+  {
+    "id": "MAT-0023",
+    "name": "Axial Flow Control Valve",
+    "partNumber": null,
+    "category": "Valves",
+    "description": "Axial flow control valve. Further details to be confirmed.",
+    "specifications": [],
+    "images": [
+      {
+        "src": "images/illustrations/valve.svg",
+        "alt": "Generic illustration of a valve"
+      }
+    ]
+  },
+  {
+    "id": "MAT-0024",
+    "name": "Ball Valve with Bettis Pneumatic Actuator",
+    "partNumber": null,
+    "category": "Valves",
+    "description": "Ball valve fitted with a pneumatic actuator.",
+    "specifications": [
+      {
+        "label": "Actuator",
+        "value": "Bettis pneumatic"
+      }
+    ],
+    "images": [
+      {
+        "src": "images/materials/mat-0024-1.jpg",
+        "alt": "Large flanged ball valve fitted with a Bettis pneumatic actuator, outdoors"
+      }
+    ]
+  },
+  {
+    "id": "MAT-0025",
+    "name": "Valve Actuators",
+    "partNumber": null,
+    "category": "Actuators",
+    "description": "Valve actuators. Further details to be confirmed.",
+    "specifications": [
+      {
+        "label": "Marked on actuator",
+        "value": "BETTIS"
+      }
+    ],
+    "images": [
+      {
+        "src": "images/materials/mat-0025-1.jpg",
+        "alt": "Large grey pneumatic actuator cylinders with control tubing, outdoors"
+      }
+    ]
+  },
+  {
+    "id": "MAT-0026",
+    "name": "Flanged Plug Valves",
+    "partNumber": null,
+    "category": "Valves",
+    "description": "Flanged plug valves, several units. Further details to be confirmed.",
+    "specifications": [
+      {
+        "label": "Marked on body",
+        "value": "TEXSEAL (Texsteam Corp), 1000 WOG, steel"
+      }
+    ],
+    "images": [
+      {
+        "src": "images/materials/mat-0026-1.jpg",
+        "alt": "Several green flanged plug valves on a pallet"
+      },
+      {
+        "src": "images/materials/mat-0026-2.jpg",
+        "alt": "Green flanged plug valves with raised body markings on a rack"
+      }
+    ]
+  },
+  {
+    "id": "MAT-0027",
+    "name": "Flanged Check Valves",
+    "partNumber": null,
+    "category": "Valves",
+    "description": "Flanged check valves. Further details to be confirmed.",
+    "specifications": [],
+    "images": [
+      {
+        "src": "images/illustrations/valve.svg",
+        "alt": "Generic illustration of a valve"
+      }
+    ]
+  }
+]

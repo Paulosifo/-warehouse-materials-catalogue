@@ -1,0 +1,15 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+
+# Environment files and secrets (never commit these)
+.env
+*.key
+
+# Python (for the future backend)
+__pycache__/
+venv/
+.venv/

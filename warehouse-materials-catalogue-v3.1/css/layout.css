@@ -1,0 +1,144 @@
+/* ==========================================================
+   layout.css: where things sit on the page
+   (navbar, hero, grid, footer).
+   ========================================================== */
+
+/* ---------- Header / navigation (stays at the top while scrolling) ---------- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: rgba(255, 255, 255, 0.95);
+  border-bottom: 1px solid var(--color-border);
+  backdrop-filter: blur(6px);
+}
+
+.navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.8rem var(--space-3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__brand {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-weight: 700;
+  color: var(--color-navy);
+  text-decoration: none;
+}
+
+.navbar__logo {
+  width: 1.6rem;
+  height: 1.6rem;
+  color: var(--color-blue);
+}
+
+.navbar__tag {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2rem 0.7rem;
+  color: var(--color-blue);
+  background: #e8f0fc;
+  border-radius: 999px;
+}
+
+/* ---------- Hero (dark band with a faint blueprint grid) ---------- */
+.hero {
+  color: #ffffff;
+  background-color: var(--color-navy);
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.hero__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-5) var(--space-3) var(--space-4);
+}
+
+.hero__eyebrow {
+  margin: 0 0 var(--space-1);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-accent-light);
+}
+
+.hero h1 {
+  max-width: 18ch;
+  font-size: clamp(2rem, 5vw, 3.2rem);
+}
+
+.hero__text {
+  max-width: 56ch;
+  margin: 0 0 var(--space-3);
+  font-size: 1.1rem;
+  color: #c5d0de;
+}
+
+.hero__stats {
+  display: flex;
+  gap: var(--space-4);
+  margin: var(--space-4) 0 0;
+  padding-top: var(--space-3);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.hero__stats dt {
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #a9b8cb;
+}
+
+.hero__stats dd {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* ---------- Catalogue area ---------- */
+.catalogue {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-4) var(--space-3);
+}
+
+/* Fits as many 260px columns as the screen allows */
+.material-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: var(--space-3);
+}
+
+/* ---------- Footer ---------- */
+.site-footer {
+  padding: var(--space-3);
+  text-align: center;
+  font-size: 0.875rem;
+  color: #a9b8cb;
+  background: var(--color-navy);
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+/* ---------- Small screens ---------- */
+@media (max-width: 480px) {
+  .hero__inner {
+    padding-top: var(--space-4);
+  }
+
+  .navbar__brand span {
+    font-size: 0.9rem;
+  }
+}

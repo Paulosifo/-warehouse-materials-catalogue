@@ -1,0 +1,82 @@
+/* ==========================================================
+   base.css: colours, fonts, spacing and basic resets.
+   Change a value here and it changes across the whole site.
+   ========================================================== */
+
+:root {
+  /* Colours */
+  --color-navy: #0f1b2d;
+  --color-navy-soft: #3d4a5c;
+  --color-blue: #1f5fbf;
+  --color-blue-dark: #174a96;
+  --color-bg: #f5f7fa;
+  --color-surface: #ffffff;
+  --color-border: #dde3ea;
+  --color-image-bg: #e9eef4;
+  --color-accent-light: #7fb0ff; /* readable blue on dark backgrounds */
+
+  /* Font */
+  --font-main: "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+
+  /* Spacing scale */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2.5rem;
+  --space-5: 4rem;
+
+  /* Shape */
+  --radius: 8px;
+}
+
+/* ---------- Basic reset ---------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  color: var(--color-navy);
+  background: var(--color-bg);
+  line-height: 1.5;
+}
+
+h1 {
+  margin: 0 0 var(--space-2);
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+/* The "hidden" attribute must always win over other display rules */
+[hidden] {
+  display: none !important;
+}
+
+/* Hides text visually but keeps it available to screen readers */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* Lets keyboard users jump past the navigation */
+.skip-link {
+  position: absolute;
+  left: var(--space-2);
+  top: -4rem;
+  padding: 0.6rem 1rem;
+  color: #ffffff;
+  background: var(--color-navy);
+  border-radius: var(--radius);
+  z-index: 10;
+}
+
+.skip-link:focus {
+  top: var(--space-1);
+}
